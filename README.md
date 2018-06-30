@@ -60,3 +60,4 @@ Get Employees
 3. Return more meaningful errors
 4. The tree code is not clean.Can be segregated more
 5. Model propagation between packages can be cleaned up.
+6. The performance of department lookup can be optimized by using a hashmap index into the tree nodes. 
