@@ -50,6 +50,9 @@ Get Employees
     curl -d "http://localhost:8080/employees/kiran/admin"
     {"employee":[{"name":"kiran","department_name":"admin"},{"name":"kiran","department_name":"subadmin"}]}
 
+## Assumptions
+1. More domain specific handling or use cases are not covered
+2. Employee creation can be done only with a pre-exsiting department
 
 ## Further Improvements
 1. Improve locking code by using channels and verify race conditions
